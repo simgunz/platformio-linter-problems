@@ -1,0 +1,18 @@
+---
+Checks: "
+  -*,
+  clang-diagnostic-*,
+  clang-analyzer-*,
+  cppcoreguidelines-*,
+  bugprone-*,
+  cert-*-c,
+  misc-*,
+  performance-*,
+  portability-*,
+  readability-*,
+  modernize-*,
+  "
+WarningsAsErrors: ""
+HeaderFilterRegex: "src/.*"
+AnalyzeTemporaryDtors: false
+FormatStyle: file

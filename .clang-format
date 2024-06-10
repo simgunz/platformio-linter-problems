@@ -1,0 +1,27 @@
+# clang format style: https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+# clang-format configurator: https://zed0.co.uk/clang-format-configurator/
+
+# the base style is WebKit coding style: https://webkit.org/code-style-guidelines/
+# and follows the CppCoreGuidelines
+BasedOnStyle: WebKit
+
+# below are only things set that are not defined by the style or diverge from it
+TabWidth: 4
+
+# maximum length line
+ColumnLimit: 88
+
+# move arguments to own lines if they are not all on the same
+BinPackArguments: false
+BinPackParameters: false
+AlignAfterOpenBracket: BlockIndent
+
+# format C++11 braced lists as function calls
+Cpp11BracedListStyle: true
+SpaceBeforeCpp11BracedList: false
+
+# we use template< without space.
+SpaceAfterTemplateKeyword: false
+
+# align * to the right
+PointerAlignment: Right

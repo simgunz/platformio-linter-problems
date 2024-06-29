@@ -13,6 +13,6 @@ Checks: "
   modernize-*,
   "
 WarningsAsErrors: ""
-HeaderFilterRegex: "src/.*"
+HeaderFilterRegex: ""
 AnalyzeTemporaryDtors: false
 FormatStyle: file
